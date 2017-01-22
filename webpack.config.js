@@ -6,12 +6,8 @@ const ExtractTextPlugin = require('extract-text-webpack-plugin')
 
 const VENDOR_LIBS = [
   'script-loader!jquery/dist/jquery.min.js',
-  'script-loader!tether/dist/js/tether.min.js',
-  'script-loader!bootstrap/dist/js/bootstrap.min.js',
   'react',
   'react-dom',
-  'tether',
-  'youtube-api-search'
 ]
 
 module.exports = {
